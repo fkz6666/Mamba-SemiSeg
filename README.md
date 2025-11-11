@@ -25,3 +25,6 @@ This is the official PyTorch implementation of the paper:
 ```bash
 git clone https://github.com/fkz6666/Mamba-SemiSeg.git
 cd Mamba-SemiSeg
+
+2. Install dependencies (a detailed requirements.txt will be provided soon):
+pip install torch torchvision opencv-python matplotlib numpy tqdm
