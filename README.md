@@ -27,4 +27,5 @@ git clone https://github.com/fkz6666/Mamba-SemiSeg.git
 cd Mamba-SemiSeg
 
 2. Install dependencies (a detailed requirements.txt will be provided soon):
+```bash
 pip install torch torchvision opencv-python matplotlib numpy tqdm
