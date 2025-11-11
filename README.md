@@ -32,17 +32,31 @@ The Mamba-SemiSeg architecture integrates a multi-scale encoder-decoder structur
 
 ### Architecture Diagram
 
-![Mamba-SemiSeg Architecture](https://github.com/fkz6666/Mamba-SemiSeg/blob/main/path_to_your_image.png)
+![Mamba-SemiSeg Architecture](https://github.com/fkz6666/Mamba-SemiSeg/blob/main/Figures/Figure1.png)
 
 The diagram above shows the complete architecture of the Mamba-SemiSeg model, illustrating how each component works together to provide high-precision segmentation for oceanic internal waves.
 
 ---
 
-## 🛠 Installation
+## 📦 Ocean Internal Wave Datasets
+We have released two ocean internal wave datasets for research and development purposes in the Releases section:
 
-To get started with Mamba-SemiSeg, clone the repository and install the required dependencies:
+S1-IW-2023 Dataset (IW_Image)
 
-```bash
-git clone https://github.com/fkz6666/Mamba-SemiSeg.git
-cd Mamba-SemiSeg
-pip install -r requirements.txt
+Description: This dataset contains 742 SAR sub-images from the Sentinel-1 satellite, spanning from June 2014 to February 2023. It covers regions such as China and other coastal areas with significant internal wave features.
+
+File format: GeoTIFF images with corresponding internal wave mask labels for segmentation tasks.
+
+Usage: Suitable for image segmentation and detection of ocean internal waves.
+
+Sentinel-1 Internal Wave Dataset (IWs Dataset v1.0)
+
+Description: This dataset includes 390 SAR images from the Sentinel-1 satellite, covering regions like the Andaman Sea, Sulu Sea, and South China Sea, from April 2014 to December 2021. Each image is annotated with internal wave labels in YOLO format.
+
+File format: SAR images with internal wave annotations for segmentation tasks.
+
+Usage: Ideal for semi-supervised detection and image segmentation tasks under low-annotation conditions.
+
+Both datasets are compressed into ZIP files and available for download via the release assets below, as shown in the diagram.
+
+
